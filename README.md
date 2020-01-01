@@ -37,13 +37,13 @@ And follow the instructions below:
 
 * Continue with launching the simple HTTP server on your following one of the two steps below depending on your version of Python installation: 
 
-For Python 2.x, at the prompt launch the server with the following command:
+      For Python 2.x, at the prompt launch the server with the following command:
 
-      `python -m SimpleHTTPServer 8000`
+            `python -m SimpleHTTPServer 8000`
 
-For Python 3.x, at the prompts launch the server with the following command:
+      For Python 3.x, at the prompts launch the server with the following command:
 
-      `python3 -m http.server 8000` or `python -m http.server 8000`
+            `python3 -m http.server 8000` or `python -m http.server 8000`
       
 * With your server running, visit the site: `http://localhost:8000` using your internet browser, GoogleChrome preferred (supporting ES6). This url will search for the index.html file with the repository folder to launch the Restaurant Reviews App website. Please enjoy the experience of navigation within this website to discover some fine dining in New York’s various neighborhoods!
 
