@@ -1,33 +1,57 @@
-# Mobile Web Specialist Certification Course
+# Restaurant Reviews App
 ---
-#### _Three Stage Course Material Project - Restaurant Reviews_
+# Table of Contents
 
-## Project Overview: Stage 1
+* [Project Overview](#project-overview)
+* [Specification](#specification)
+* [Project Rubric](#project-rubric)
+* [Instructions](#instructions)
+* [Acknowledgements](#acknowledgements)
 
-For the **Restaurant Reviews** projects, you will incrementally convert a static webpage to a mobile-ready web application. In **Stage One**, you will take a static design that lacks accessibility and convert the design to be responsive on different sized displays and accessible for screen reader use. You will also add a service worker to begin the process of creating a seamless offline experience for your users.
+## Project Overview
 
-### Specification
+This project is a web application where you can read reviews of some of the finest restaurants in New York’s neighborhoods serving some of the most delicious cousins.
+In this project, I was responsible for converting a static webpage to a mobile-ready web application. Starting with a static design that lacked accessibility, I converted the design to be responsive on different sized displays and accessible for screen reader use. I also added a service worker to capture data initially presented that allows for a seamless offline experience for the users of this application.
 
-You have been provided the code for a restaurant reviews website. The code has a lot of issues. It’s barely usable on a desktop browser, much less a mobile device. It also doesn’t include any standard accessibility features, and it doesn’t work offline at all. Your job is to update the code to resolve these issues while still maintaining the included functionality.
+## Specification
 
-### Project Rubric
+The starter code provided for this restaurant reviews website came with a lot of issues, barely usable on a desktop browser, much less a mobile device. It also didn’t include any standard accessibility features nor did it work offline at all. My job was to update the code to resolve these issues while still maintaining the included functionality, providing a responsive, accessible website application that hungry people in New York might appreciate.
 
-Your project will be evaluated by a Udacity code reviewer according to the [Restaurant Reviews project rubric](https://review.udacity.com/#!/rubrics/1090/view). Please review for detailed project requirements. The rubric should be a resource you refer to periodically to make sure your project meets specifications.
+## Project Rubric
 
-### What do I do from here?
+This project will be evaluated by a Udacity code reviewer according to the [Restaurant Reviews project rubric](https://review.udacity.com/#!/rubrics/1090/view). The Project Rubric provides detailed project requirements. The rubric is the resource of reference to ensure the project meets specifications.
 
-1. In this folder, start up a simple HTTP server to serve up the site files on your local computer. Python has some simple tools to do this, and you don't even need to know Python. For most people, it's already installed on your computer.
+## Instructions
 
-    * In a terminal, check the version of Python you have: `python -V`. If you have Python 2.x, spin up the server with `python -m SimpleHTTPServer 8000` (or some other port, if port 8000 is already in use.) For Python 3.x, you can use `python3 -m http.server 8000`. If you don't have Python installed, navigate to Python's [website](https://www.python.org/) to download and install the software.
-   * Note -  For Windows systems, Python 3.x is installed as `python` by default. To start a Python 3.x server, you can simply enter `python -m http.server 8000`.
-2. With your server running, visit the site: `http://localhost:8000`, and look around for a bit to see what the current experience looks like.
-3. Explore the provided code, and start making a plan to implement the required features in three areas: responsive design, accessibility and offline use.
-4. Write code to implement the updates to get this site on its way to being a mobile-ready website.
+To run the project, download or clone the repository in your computer from the following location:
 
-## Leaflet.js and Mapbox:
+      https://github.com/bulldogmgc/mws-restaurant-stage-1 
 
-This repository uses [leafletjs](https://leafletjs.com/) with [Mapbox](https://www.mapbox.com/). You need to replace `<your MAPBOX API KEY HERE>` with a token from [Mapbox](https://www.mapbox.com/). Mapbox is free to use, and does not require any payment information.
+And follow the instructions below:
 
-### Note about ES6
+* Within the repository folder, start up a simple HTTP server to serve up the site files on your local computer/device. Recommendation is to use Python to do this. If you don’t have Python installed on your local computer/device, you can download Python from: 
 
-Most of the code in this project has been written to the ES6 JavaScript specification for compatibility with modern web browsers and future-proofing JavaScript code. As much as possible, try to maintain use of ES6 in any additional JavaScript you write.
+      https://www.python.org/downloads/.
+ 
+* To confirm if you have Python installed and what version is installed, using Git Bash, Cygwin, or Windows terminal, at the prompt type `python -V`.
+
+* Continue with launching the simple HTTP server on your following one of the two steps below depending on your version of Python installation: 
+
+For Python 2.x, at the prompt launch the server with the following command:
+
+      `python -m SimpleHTTPServer 8000`
+
+For Python 3.x, at the prompts launch the server with the following command:
+
+      `python3 -m http.server 8000` or `python -m http.server 8000`
+      
+* With your server running, visit the site: `http://localhost:8000` using your internet browser, GoogleChrome preferred (supporting ES6). This url will search for the index.html file with the repository folder to launch the Restaurant Reviews App website. Please enjoy the experience of navigation within this website to discover some fine dining in New York’s various neighborhoods!
+
+
+## Acknowledgements
+
+* Starter code by [**Udacity**](https://github.com/udacity/mws-restaurant-stage-1).
+* [**Leafletjs**](https://leafletjs.com/), an open-source JavaScript library for mobile-friendly interactive maps, & [**Mapbox**](https://www.mapbox.com/), an open source mapping platform for custom designed maps, where the token API key was obtained (to use Mapbox instead of Google Maps).
+* [Progressive Web Apps (PWA) Training](https://developers.google.com/web/ilt/pwa/caching-files-with-service-worker) – specific to caching files with service worker.
+* [w3schools.com]( https://www.w3schools.com/) for various CSS tips, including flexbox.
+
